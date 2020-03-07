@@ -47,29 +47,49 @@
         <div class=a2>
             <div class=content>
                 <form action="submit.php" method="POST">
-                    <p>姓名<input type="text" placeholder="english only" name="username"></p>
-                    <p>身分證字號<input type="password" name="pwd"></p>
-                    <p>性別<input type="radio" name="gender" value="M">Male<input type="radio" name="gender" value="F">female</p>
-                    <p>請上傳檔案<input type="file"></p>
+                    <p>姓名 &nbsp; <input type="text"  name="username"></p>
+                    <p>身分證字號 &nbsp; <input type="password" name="pwd"></p>
+                    <p>連絡電話 &nbsp; <input type="tel"" name="phone" placeholder="手機號碼" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"></p>
+                    <p>性別 &nbsp; <input type="radio" name="gender" value="M">Male<input type="radio" name="gender" value="F">female</p>
+                    <p>請上傳家長同意書 &nbsp; <input type="file"></p>
                     <p><img src="https://static.wixstatic.com/media/06dfca_3235894057024b54b8833007b65a8edc~mv2_d_2480_1433_s_2.jpg" alt="" width="300px" height="auto"></p>
-                    <p>填寫你的衣服版型及件數<input type="picture"></p>
-                    <p>營服顏色偏好<input type="color"></p>
-                    <p>一天餐費<input type="range" min="0" max="200"></p>
-                    <p>生日<input type="date"></p>
-                    <p>電子信箱<input type="email"></p>
-                    <p>個性特質
-                    <input type="checkbox" name="int1" value="happy" checked>樂觀
-                    <input type="checkbox" name="int2" value="inside">內向
-                    <input type="checkbox" name="int3" value="good">積極
-                    <input type="checkbox" name="int4" value="outside">外向
-                    <input type="checkbox" name="int5" value="soso">消極
+                    <p>填寫你的衣服版型及件數 &nbsp; <input type="picture"></p>
+                    <p>營服顏色偏好 &nbsp; <input type="color"></p>
+                     &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;0 &nbsp;&nbsp;50 &nbsp;&nbsp;100 &nbsp;&nbsp;150 &nbsp;&nbsp;200<br/>
+                    <p>一餐費用 &nbsp; <input type="range" min="0" max="200" step="50"></p>
+                    <p>生日 &nbsp; <input type="date"></p>
+                    <p>電子信箱 &nbsp; <input type="email"></p>
+                    <p>個性特質 &nbsp; 
+                    <input type="checkbox" name="int1" value="optimism" checked>樂觀
+                    <input type="checkbox" name="int2" value="Introvert">內向
+                    <input type="checkbox" name="int3" value="positive">積極
+                    <input type="checkbox" name="int4" value="Outgoing">外向
+                    <input type="checkbox" name="int5" value="snegative">消極
                     </p>
 
-                    <p>居住城市<select name="city" id="" mutiple>
-                    <option value="taipei">taipei</option>
-                    <option value="kaohsiung" selected>kaohsiung</option>
-                    <option value="tainan">tainan</option>
-                    <option value="taichung">taichung</option>
+                    <p>居住城市 &nbsp; <select name="city" id="">
+                    <option value="Taipei">台北市</option>
+                    <option value="New_Taipei">新北市</option>
+                    <option value="Keelung">基隆市</option>
+                    <option value="Taoyuan">桃園市</option>
+                    <option value="Hsinchu">新竹市</option>
+                    <option value="Hsinchu">新竹縣</option>
+                    <option value="Yilan">宜蘭縣</option>
+                    <option value="Miaoli">苗栗縣</option>
+                    <option value="Taichung">台中市</option>
+                    <option value="Changhua">彰化縣</option>
+                    <option value="Yunlin">雲林縣</option>
+                    <option value="Nantou">南投縣</option>
+                    <option value="Chiayi">嘉義市</option>
+                    <option value="Chiayi">嘉義縣</option>
+                    <option value="Tainan">台南市</option>
+                    <option value="Kaohsiung" selected>高雄市</option>
+                    <option value="Pingtung">屏東縣</option>
+                    <option value="Taitung">台東縣</option>
+                    <option value="Hualien">花蓮縣</option>
+                    <option value="Kinmen">金門縣</option>
+                    <option value="Lienchiang">連江縣</option>
+                    <option value="Penghu">澎湖縣</option>
                     </select></p>
 
                     <p>建議</p>

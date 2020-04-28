@@ -1,0 +1,2 @@
+A tag cloud is a visual representation for text data, typically\
+used to depict keyword metadata on websites, or to visualize free form text.

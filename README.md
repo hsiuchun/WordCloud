@@ -40,4 +40,4 @@ plt.axis("off")
 plt.show()
 ```
 **result**
-![GITHUB]( 圖片網址 "圖片名稱")
+![]( https://raw.githubusercontent.com/hsiuchun/first_work/master/testch.png "testch.png")

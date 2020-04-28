@@ -40,4 +40,5 @@ plt.axis("off")
 plt.show()
 ```
 **result**
+--
 ![]( https://raw.githubusercontent.com/hsiuchun/first_work/master/testch.png "testch.png")

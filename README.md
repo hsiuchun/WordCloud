@@ -51,3 +51,5 @@ plt.show()
 **result**
 --
 ![]( https://raw.githubusercontent.com/hsiuchun/first_work/master/testch.png "testch.png")
+
+[you can see there for more](https://colab.research.google.com/drive/1ktMDfg6yWunTRpFqIN2YZlVmCjilav8m)

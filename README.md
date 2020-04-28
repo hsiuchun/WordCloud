@@ -17,7 +17,7 @@ plt.axis("off")
 plt.show()
 ```
 **result**
-![GITHUB]("test.png")
+![](https://raw.githubusercontent.com/hsiuchun/first_work/master/test.png "test.png")
 ## chinese with image mask
 ---
 ```python

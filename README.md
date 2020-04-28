@@ -7,7 +7,8 @@ pip install simplejson
 ```
 ## only english
 If the text is written only with english, you can run this program with your text.    
-You can transform the "text.txt" to your text.
+You can transform the "text.txt" to your text.    
+You can run the file "wordcloudimg.py" to see the result.
 ```python
 #upload the text and the mask picture
 
@@ -28,8 +29,8 @@ plt.show()
 ## chinese with image mask
 If the text is existing chiness character, you can run this program with your text.   
 You can transform the "text.txt" to your text, and remember add the font template which including the chiness character.    
-And if you wamt to have a image mask with your word cloud, add the mask image.
-
+And if you wamt to have a image mask with your word cloud, add the mask image.    
+You can run the file "wordcloudchimg.py" to see the result.
 ```python
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
